@@ -9,11 +9,7 @@ public class AddBidCommand extends Command {
 
     public AddBidCommand(Bid bid) { this.bid = bid; }
 
-    // Save bid locally
-    /*public void execute(){
-        bid_list.addBid(bid);
-        super.setIsExecuted(bid_list.saveBids(context));
-    }*/
+
 
     // Save the item remotely to server
     public void execute(){
